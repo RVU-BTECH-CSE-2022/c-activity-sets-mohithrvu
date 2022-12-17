@@ -2,9 +2,9 @@
 int main()
 {
   int a,b;
-  a=input();
-  b=natural_sum(a);
-  output(a,b);
+  x=input();
+  y=natural_sum(x);
+  output(x,y);
 }
 int input()
 {
@@ -18,6 +18,6 @@ int natural_sum(int n,int sum)
   sum=(n*(n+1))/2;
   return sum;
 }
-void output(int a,int b){
-  printf("the sum of natural numbers %d is %d",a,b);
+void output(int x,int y){
+  printf("the sum of natural numbers %d is %d",x,y);
 }
